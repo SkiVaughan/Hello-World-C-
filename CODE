@@ -1,21 +1,40 @@
 // C# program to print Hello World!
+//Telling the console that we are using this System namespace in the .NET library
 using System;
 
 // namespace declaration
-namespace Practice
+namespace Welcome
 {
 
     // Class declaration
-    class Practice
+    public class Welcome
+
     {
 
-        // Main Method
+        // Header of the Main Method
+        // Compiler will not start without the main method (POP QUIZ QUESTION)
+        // Static void statement tells the compiler to print text into the console
         static void Main(string[] args)
         {
-
+            //Body of the main method
             // statement
             // printing Hello World!
-            Console.WriteLine("Hello World!");
+            //Console is a class that is already defined in the .NET library in the (System) namespace
+            //WriteLine is a method
+            //WriteLine makes the cursor goes to the next line while Write keeps the cursor on the same line
+            //          ESCAPE SEQUENCES THAT THE COMPILER UNDERSTANDS
+            // \n Makes it so that the write line goes to the following line
+            // \t Adds 3-4 spaces following the previous text
+            // \r For carraige return
+            // \" To have "" written
+
+
+            Console.WriteLine("Hello World!\t\t\t\t new line \n new line");
+
+            // \" Makes it so that you can actually print the quotation marks in the console
+           
+            Console.Write("This is my first project in \"C#\"");
+
 
             // To prevents the screen from 
             // running and closing quickly

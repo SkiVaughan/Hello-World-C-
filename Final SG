@@ -1,0 +1,82 @@
+Methods
+Same class (call it by its name and the parameters)
+different class objectName.MethodName
+
+Local Variables are declared within the body of a method, and are only avalable within that method.
+Instance Variable can be used anywhere in the class (associated with an object) 
+
+Chapter 4- Classes and Objects
+Blueprint of the project
+- Attributes (instance variables)
+- Behaviors (methods)
+define methods
+calling methods (from within the same class or from another class)
+
+Get and set access methods {get : set}
+Properties
+Auto-implemented properties
+- One line of code that acheives all of the (get set) 
+Constructers 
+- If we do not create our own constructor, the compiler will give us the default constructor
+DOES NOT RETURN DATA
+Methods can have inputs, These are defined through parameters (pieces of info that the method needs to execute)
+- public void Changepin(string newPin) (1 parameter)
+- public void ChangePassword() (0 parameters AKA emtpy parameter list)
+
+Methods can return data
+- public int AddNumbers(int n1, int n2)
+
+Chapter 5-Control Structures
+Sequential Flow 
+Selection
+- If
+- If-Else
+- Nested if-else
+- Switch
+
+switch(grade>=80) // This would be a T/F which would end up running the default case
+{
+  case 100:
+   Console.WriteLine("Perfect")
+    break;
+case 90:
+   Console.WriteLine("Great Job")
+    break;
+case 80:
+   Console.WriteLine("I know you can do better")
+    break;
+default
+........
+break;
+
+}
+
+Repitition (looping)
+- While loop (counter-controlled, sentinal-controlled)
+- Do-While
+- For 
+- Foreach (you can't set values for the elements)
+
+Chapter 7- Methods
+
+Purpose of Methods
+Method Headers
+- Return type
+- Parameters of a method
+Methods body
+Method Signature (name of the method and its parameters)
+Calling Methods
+
+From the same class (call by the method's name and provide the arguments that match the paramters
+from another class (create an object and call by objectname.MethodName and provide arguments
+
+Chapter 10 
+Overloaded contructors
+Default constructor (when does the compler prves a default constructor and when not)
+Parameterless contructor (no-argument contructor)
+this keyword 
+ToString Method
+Compostion
+Inhertitance
+ 
+
